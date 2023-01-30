@@ -1,7 +1,0 @@
-TypeError: can only concatenate str (not "float") to str
-	Fix: put gpa into a string in the print function
-
-ValueError: could not convert string to float: 'Input Students GPA:
-	Fix: put float before input
-NameError: name 'exit' is not defined
-	Fix: Imported sys and change quit() to sys.exit
