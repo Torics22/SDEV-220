@@ -1,0 +1,22 @@
+TypeError: Vehicle() takes no arguments
+	Fix: Removed pieces of code: Automobile in serveral lines
+TypeError: Automobile.__init__() missing 4 required positional arguments: 'make', 'model', 'doors', and 'roof'
+	Fix: Removed pieces of code: Automobile in serveral lines
+SyntaxError: unmatched ')'
+	Fix: Removed SyntaxError by deleting unnessecary )
+NameError: name 'args' is not defined
+	Fix: Added Super() to child class
+TypeError: Automobile.__repr__() missing 1 required positional argument: 'other'
+	Fix: deleted other from inside of def __repr__ (self, other)
+AttributeError: 'Automobile' object has no attribute 'Vtype'
+	Fix: Added Super() to child class
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+	Fix: marked out parent class and moved Vtype down to child class
+SyntaxError: expected ':'
+	Fix: added :
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+	Fix: Added =
+IndentationError: unexpected indent
+	Fix: Removed Space from line
+SyntaxError: invalid syntax
+	Fix: Fixed Syntax Error
