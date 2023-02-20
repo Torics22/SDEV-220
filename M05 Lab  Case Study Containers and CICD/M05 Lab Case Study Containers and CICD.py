@@ -11,11 +11,12 @@ import emoji
 
 user = input('Smile or Frown?: ')
 
-if user == 'Smile' and 'smile':
-    print(emoji.emojize(':smile:'))
+if (user == 'Smile' or 'smile'):
+    print (emoji.emojize(':sweat_smile:'))
 
-if user == 'Frown' and 'frown':
-    print(emoji.emojize(':frowning_face:'))
+elif (user == 'Frown' or 'frown'):
+    print (emoji.emojize(':frowning_face:'))
 
-if user != 'Smile' or 'smile' or 'Frown' or 'frown':
-    print('invalid input')
+elif (user != 'Smile' or 'Frown' or 'smile' or 'frown'):
+    print ('invalid input')
+
