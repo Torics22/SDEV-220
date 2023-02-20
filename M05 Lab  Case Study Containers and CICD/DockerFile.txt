@@ -1,0 +1,10 @@
+FROM Python:3
+
+WORKDIR /Users/Kyle Stitt/School/SDEV 220/M05 Lab case studey containers and CICD
+
+COPY M05 Lab Case Study Containers and CICD.py
+COPY requirements.txt
+
+RUN pip install --no-cache-dir -r requirement.txt
+
+CMD ["python", "./M05 Lab case studey containers and CICD.py]
