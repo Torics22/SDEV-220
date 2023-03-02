@@ -1,0 +1,2 @@
+bug - attempted to use datetime module, but it was being difficult
+	fix - used time library instead
